@@ -146,4 +146,4 @@ async def remove_set_channel(interaction: discord.Interaction, channel: discord.
     else:
         await interaction.response.send_message("This channel is not in the allowed list.", ephemeral=True)
 
-bot.run('MTM2OTAxNjI4MzE2ODg5OTE3Mw.Gv-xqR.2p50HcyFrzJ2OW9RfMBWQ9NMUqStYy3iaNOj2E')
+bot.run(os.getenv("DISCORD_TOKEN"))
